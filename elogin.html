@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In</title>
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>GROUP-11</h1>
+			<ul id="navli">
+				<li><a class="homeblack" href="index.html">HOME</a></li>
+				<li><a class="homered" href="elogin.html">EMPLOYEE LOGIN</a></li>
+				<li><a class="homeblack" href="alogin.html">ADMIN LOGIN</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<div class="divider"></div>
+
+	<body background="Screenshot (304).png"></body>
+
+	<div class="loginbox">
+    <img src="emplog.png" class="avtar">
+        <h1>Login Here</h1>
+        <form action="process/eprocess.php" method="POST">
+            <p>Email</p>
+            <input type="text" name="mailuid" placeholder="Enter Email Address" required="required">
+            <p>Password</p>
+            <input type="password" name="pwd" placeholder="Enter Password" required="required">
+            <input type="submit" name="login-submit" value="Login">
+           
+        </form>
+        
+    </div>
+			
+			
+</body>
+</html>
